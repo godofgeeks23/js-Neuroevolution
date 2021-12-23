@@ -1,15 +1,3 @@
-// Daniel Shiffman
-// http://codingtra.in
-// http://patreon.com/codingtrain
-
-// Neuro-Evolution Flappy Bird
-
-// Part 1: https://youtu.be/c6y21FkaUqw
-// Part 2: https://youtu.be/tRA6tqgJBc
-// Part 3: https://youtu.be/3lvj9jvERvs
-// Part 4: https://youtu.be/HrvNpbnjEG8
-// Part 5: https://youtu.be/U9wiMM3BqLU
-
 const TOTAL = 500;
 let birds = [];
 let savedBirds = [];
@@ -70,8 +58,6 @@ function draw() {
       pipes = [];
     }
   }
-
-  // All the drawing stuff
   background(0);
 
   for (let bird of birds) {

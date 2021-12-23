@@ -1,5 +1,3 @@
-// Other techniques for learning
-
 class ActivationFunction {
   constructor(func, dfunc) {
     this.func = func;
@@ -19,7 +17,6 @@ let tanh = new ActivationFunction(
 
 
 class NeuralNetwork {
-  // TODO: document what a, b, c are
   constructor(a, b, c) {
     if (a instanceof NeuralNetwork) {
       this.input_nodes = a.input_nodes;
@@ -46,8 +43,6 @@ class NeuralNetwork {
       this.bias_h.randomize();
       this.bias_o.randomize();
     }
-
-    // TODO: copy these as well
     this.setLearningRate();
     this.setActivationFunction();
 
