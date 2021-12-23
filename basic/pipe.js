@@ -9,7 +9,7 @@ function Pipe() {
 
   this.highlight = false;
 
-  this.hits = function(bird) {
+  this.hits = function (bird) {
     if (bird.y < this.top || bird.y > height - this.bottom) {
       if (bird.x > this.x && bird.x < this.x + this.w) {
         this.highlight = true;
@@ -20,7 +20,7 @@ function Pipe() {
     return false;
   };
 
-  this.show = function() {
+  this.show = function () {
     fill(255);
     if (this.highlight) {
       fill(255, 0, 0);
@@ -29,11 +29,11 @@ function Pipe() {
     rect(this.x, height - this.bottom, this.w, this.bottom);
   };
 
-  this.update = function() {
+  this.update = function () {
     this.x -= this.speed;
   };
 
-  this.offscreen = function() {
+  this.offscreen = function () {
     if (this.x < -this.w) {
       return true;
     } else {
