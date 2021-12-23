@@ -1,7 +1,3 @@
-// Daniel Shiffman
-// http://codingtra.in
-// http://patreon.com/codingtrain
-// Code for: https://youtu.be/cXgA1d_E-jY&
 
 var bird;
 var pipes = [];
@@ -39,6 +35,5 @@ function draw() {
 function keyPressed() {
   if (key == ' ') {
     bird.up();
-    //console.log("SPACE");
   }
 }
