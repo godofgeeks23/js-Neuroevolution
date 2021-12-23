@@ -1,2 +1,2 @@
 # js-Neuroevolution
-To demonstrate Neuroevolution by a simple Flappy Bird in JavaScript
+To demonstrate Neuroevolution by a simple Flappy Bird game in JavaScript.
